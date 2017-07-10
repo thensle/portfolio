@@ -25,8 +25,6 @@
   padding-bottom: 13%;
 }
 
-
-
 .icons {
   height: 50px;
   width: 50px;
@@ -42,14 +40,25 @@
   margin-left: 1%;
   margin-top: 2%;
   margin-bottom: 10%;
+}
 
+.body-text {
+  display: inline-block;
 }
 
 .bio-pic {
-  width: 40%;
+  width: 60%;
   height: auto;
+  display: inline-block;
   
 }
+
+.picture-container {
+  display: inline-block;
+  float: left;
+
+}
+
 
 footer {
   background-color: #65737e;
