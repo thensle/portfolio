@@ -5,9 +5,11 @@
 }
 
 /* Add a gray background color and some padding to the footer */
-footer {
-  background-color: #f2f2f2;
-  padding: 25px;
+
+
+.header {
+  background-color: #4f5b66;
+  font-color: black;
 }
 
 .jumbotron {
@@ -23,5 +25,22 @@ footer {
 }
 
 body {
-  background-color: #005464;
+  background-color: #65737e;
+}
+
+.icons {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: #4f5b66;
+  width: 100%;
+  padding: 25px;
+  position: absolute;
+  bottom: 0;
 }
