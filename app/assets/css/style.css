@@ -6,27 +6,26 @@
 
 /* Add a gray background color and some padding to the footer */
 
-
 .header {
   background-color: #4f5b66;
   font-color: black;
 }
 
+
+
 .jumbotron {
 	margin-bottom: 0px;
-    background-image: url(../images/opal.jpg);
-    background-position: 0% 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
-    padding-top: 13%;
-    padding-bottom: 13%;
+  background-image: url(../images/opal.jpg);
+  background-position: 0% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  padding-top: 13%;
+  padding-bottom: 13%;
 }
 
-body {
-  background-color: #65737e;
-}
+
 
 .icons {
   height: 50px;
@@ -37,10 +36,31 @@ body {
   margin-right: auto;
 }
 
+.body-bio {
+  position: relative;
+  display: inline-block;
+  margin-left: 1%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+
+}
+
+.bio-pic {
+  width: 40%;
+  height: auto;
+  
+}
+
 footer {
-  background-color: #4f5b66;
+  background-color: #65737e;
   width: 100%;
   padding: 25px;
   position: absolute;
   bottom: 0;
+  float: bottom;
+}
+
+body {
+  background-color: #a7adba;
+  position: relative;
 }
