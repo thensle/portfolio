@@ -11,8 +11,6 @@
   font-color: black;
 }
 
-
-
 .jumbotron {
 	margin-bottom: 0px;
   background-image: url(../images/opal.jpg);
@@ -73,5 +71,11 @@ body {
   background-color: #a7adba;
   position: relative;
   font-family: 'Open Sans', sans-serif;
+  padding-bottom: 5%;
 
+}
+
+.project-pic {
+  width: 100%;
+  height: 100%;
 }
