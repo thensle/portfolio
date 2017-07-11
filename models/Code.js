@@ -26,14 +26,14 @@ var WebDevSchema = new Schema({
 		required: true
 	},
 
-	"tagline": {
+	"sentenceSummary": {
 		type: String,
 		trim: true,
 		unique: false,
 		required: true
 	},
 
-	"summary": {
+	"description": {
 		type: String,
 		trim: true,
 		unique: false,
