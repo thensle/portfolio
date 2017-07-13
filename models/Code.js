@@ -1,10 +1,8 @@
 //Dependencies
-
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var WebDevSchema = new Schema({
-
 	title: {
 		type: String,
 		trim: true,
@@ -12,77 +10,77 @@ var WebDevSchema = new Schema({
 		required: false
 	},
 
-	"liveURL": {
+	liveURL: {
 		type: String,
 		trim: true,
 		unique: true,
 		required: true
 	},
 
-	"githubRepo": {
+	githubRepo: {
 		type: String,
 		trim: true,
 		unique: true,
 		required: true
 	},
 
-	"sentenceSummary": {
+	sentenceSummary: {
 		type: String,
 		trim: true,
 		unique: false,
 		required: true
 	},
 
-	"description": {
+	description: {
 		type: String,
 		trim: true,
 		unique: false,
 		required: false
 	},
 
-	"image1URL": {
+	image1URL: {
 		type: String,
 		trim: true,
 		unique: false,
 		required: true
 	},
 
-	"image1caption": {
+	image1caption: {
 		type: String,
 		trim: true,
 		unique: false,
 		required: true
 	},
 
-	"image2URL": {
+	image2URL: {
 		type: String,
 		trim: true,
 		unique: false,
 		required: false
 	},
 
-	"image2caption": {
+	image2caption: {
 		type: String,
 		trim: true,
 		unique: false,
 		required: false
 	},
 
-	"image3URL": {
+	image3URL: {
 		type: String,
 		trim: true,
 		unique: false,
 		required: false
 	},
 
-	"image3caption": {
+	image3caption: {
 		type: String,
 		trim: true,
 		unique: false,
 		required: false
 	},
 
-	"technologiesUsed": {
+	technologiesUsed: {
 		type: String,
 		trim: true,
 		unique: false,
