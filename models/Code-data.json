@@ -26,7 +26,7 @@
 		"title": "Buber",
 		"liveURL": "",
 		"githubRepo":"https://github.com/mstorino/buber",
-		"description": "A play on the well-known ride request application, Buber allows users to track the availability of local, trusted babysitters in real time and request their services.  Parents can review sitter profiles and pin their favorite sitters. Babysitters Babysitters can create profiles, toggle availability and book babysitting gigs.",
+		"description": "A play on the well-known car transportation application, Buber allows users to track the availability of local, trusted babysitters in real time and request their services.  Parents can review sitter profiles and pin their favorite sitters. Babysitters Babysitters can create profiles, toggle availability and book babysitting gigs.",
 		"image1URL":"/assets/images/Project 3/proj3Main.png",
 		"image1caption": "More details coming soon!",
 		"image2URL": "/assets/images/Project 3/proj3login.png"	,
