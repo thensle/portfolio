@@ -1,17 +1,15 @@
 [
 	{
-		"title": "Connect-ED"
-		"liveURL": "sdfsd"
-		"githubRepo":""
-		"sentenceSummary":""
-		"description": ""
+		"title": "Connect-ED",
+		"liveURL": "https://boiling-fortress-85506.herokuapp.com/",
+		"githubRepo":"https://github.com/thensle/Connect-ED-Repo",
+		"sentenceSummary":"Connect-ED was designed to quickly evaluate the comprehension levels of students during a lecture and give the instructor feedback of the students' learning in real time. Questions can also be submitted anonymously to the instructor to address during the lecture.",
+		"description": "An educational application that allows students to rate their comprehension of class material and submit questions to their instructor in real-time. In instructor-view, datapoints are plotted on a timeline graph, complete with basic statistics, and student questions are displayed on a portal.",
 		"image1URL":""
 		"image1caption": ""
 		"image2URL": ""	
 		"image2caption":""
-		"image3URL": ""
-		"image3caption": ""
-		"technologiesUsed": ""
+		"technologiesUsed": "Firebase, Google Charts, JS/Jquery, Bootstrap, HTML5, and CSS3.."
 	},
 	{
 		"title": ""
@@ -23,8 +21,6 @@
 		"image1caption": ""
 		"image2URL": ""	
 		"image2caption":""
-		"image3URL": ""
-		"image3caption": ""
 		"technologiesUsed": ""
 	},
 	{
@@ -37,8 +33,6 @@
 		"image1caption": ""
 		"image2URL": ""	
 		"image2caption":""
-		"image3URL": ""
-		"image3caption": ""
 		"technologiesUsed": ""
 	}
 ]
