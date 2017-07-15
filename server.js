@@ -4,12 +4,12 @@ var express = require('express');
 var exphbs = require('express-handlebars');
 var mongoose = require('mongoose');
 
-//Static Content
-app.use(express.static(__dirname + "/app"));
-
 //Config Express
 var app = express();
 var PORT = process.env.PORT || 8080;
+
+//Static Content
+app.use(express.static(__dirname + "/app"));
 
 //BodyParser Config
 app.use(bodyParser.json());
