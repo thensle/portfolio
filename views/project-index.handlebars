@@ -4,7 +4,9 @@
     {{#each data}}
     <div class="col-sm-4">
       <a href = "/projects/{{this.title}}"><p>{{this.title}}</p></a>
+      <div class = "project-pic-container">
        <a href = "/projects/{{this.title}}"><img src="{{this.image1URL}}" class="img-responsive project-pic" alt="Project Preview Image"></a>
+       </div>
     </div>
    {{/each}}
   </div>
