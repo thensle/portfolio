@@ -5,9 +5,9 @@
 		"githubRepo":"https://github.com/thensle/Connect-ED-Repo",
 		"sentenceSummary":"Connect-ED was designed to quickly evaluate the comprehension levels of students during a lecture and give the instructor feedback of the students' learning in real time. Questions can also be submitted anonymously to the instructor to address during the lecture.",
 		"description": "An educational application that allows students to rate their comprehension of class material and submit questions to their instructor in real-time. In instructor-view, datapoints are plotted on a timeline graph, complete with basic statistics, and student questions are displayed on a portal.",
-		"image1URL":"/assets/images/Project 1/proj1Instructor.png",
+		"image1URL":"/assets/images/Project 1/proj1Instructor.PNG",
 		"image1caption": "The instructor view of the applications",
-		"image2URL": "/assets/images/Project 1/proj1Stats.png"	,
+		"image2URL": "/assets/images/Project 1/proj1Stats.PNG"	,
 		"image2caption":"Students' ratings of their material comprehension are plotted in real-time and basic stats of class understanding is updated every 60 seconds",
 		"technologiesUsed": "Firebase, Google Charts, JavaScript, jQuery, Bootstrap, HTML5, and CSS3."
 	},
@@ -16,9 +16,9 @@
 		"liveURL": "https://secure-journey-72741.herokuapp.com/",
 		"githubRepo": "https://github.com/thensle/whoAreYou_Game",
 		"description": "A social, “get-to-know-you” game that provides players with hundreds of question, divided into Safe-for-Work (SFW) and Not-Safe-For-Work (NSFW) categories, to inspire conversation among a group. Players can also edit and create their own cards to use in gameplay.",
-		"image1URL":"/assets/images/Project 2/proj2Main.png",
+		"image1URL":"/assets/images/Project 2/proj2Main.PNG",
 		"image1caption": "After logging in, users can play NSFW or SFW questions or edit their deck of cards.",
-		"image2URL": "/assets/images/Project 2/proj2edit.png",
+		"image2URL": "/assets/images/Project 2/proj2edit.PNG",
 		"image2caption":"Users can create their own cards, or edit/delete the card automatically created for them from the template deck",
 		"technologiesUsed": "Node/Express.js, Sequelize.js with a MYSQL database, Passport.js, Javascript, jQuery, HTML, CSS, and express-handlebars."
 	},
@@ -27,9 +27,9 @@
 		"liveURL": "",
 		"githubRepo":"https://github.com/mstorino/buber",
 		"description": "A play on the well-known car transportation application, Buber allows users to track the availability of local, trusted babysitters in real time and request their services.  Parents can review sitter profiles and pin their favorite sitters. Babysitters Babysitters can create profiles, toggle availability and book babysitting gigs.",
-		"image1URL":"/assets/images/Project 3/proj3Main.png",
+		"image1URL":"/assets/images/Project 3/proj3Main.PNG",
 		"image1caption": "More details coming soon!",
-		"image2URL": "/assets/images/Project 3/proj3login.png"	,
+		"image2URL": "/assets/images/Project 3/proj3login.PNG"	,
 		"image2caption":"More details coming soon!",
 		"technologiesUsed": "Bootstrap, Javascript, SASS, Moment.js, Node.js, Express, MongoDB, Mongoose and React.js."
 	}
