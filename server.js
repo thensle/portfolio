@@ -18,25 +18,31 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 //MongoDB Config
-var db = process.env.MONGODB_URI || "mongodb://localhost/taraPortfolio";
+// var db = process.env.MONGODB_URI || "mongodb://localhost/taraPortfolio";
 
-mongoose.connect(db, function(error) {
-  if (error) {
-    console.log(error);
-  }
-  else {
-    console.log("mongoose connection is successful");
-  }
-});
+// mongoose.connect(db, function(error) {
+//   if (error) {
+//     console.log(error);
+//   }
+//   else {
+//     console.log("mongoose connection is successful");
+//   }
+// });
+
+//Static Content
+app.use(express.static(__dirname + "/app"));
 
 //HandleBars Config
-app.engine("handlebars", expressHandlebars({defaultLayout: "main"}));
+app.engine("handlebars", exphbs({defaultLayout: "main"}));
 app.set("view engine", "handlebars");
 
 //Routes
+var routes = require("./controllers/controller.js");
+
+app.use("/", routes);
 
 //Server Listener
-app.listen(PORT, function() {
+app.listen(PORT, function(error) {
 	if (error){
 		console.log(error);
 	} else {
