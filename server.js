@@ -30,9 +30,7 @@ mongoose.connect(db, function(error) {
 });
 
 //HandleBars Config
-app.engine("handlebars", expressHandlebars({
-  defaultLayout: "main"
-}));
+app.engine("handlebars", expressHandlebars({defaultLayout: "main"}));
 app.set("view engine", "handlebars");
 
 //Routes
