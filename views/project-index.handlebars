@@ -1,18 +1,12 @@
 <div class="container-fluid bg-3 text-center">    
   <h3>My Web Development/Software Projects</h3><br>
   <div class="row">
+    {{#each data}}
     <div class="col-sm-4">
-      <p>Connect-ED</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive project-pic" alt="Image">
+      <a href = "/projects/{{this.title}}"><p>{{this.title}}</p></a>
+       <a href = "/projects/{{this.title}}"><img src="{{this.image1URL}}" class="img-responsive project-pic" alt="Project Preview Image"></a>
     </div>
-    <div class="col-sm-4"> 
-      <p>Tell Me, Who Are You?</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive project-pic" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>"Buber"</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive project-pic" alt="Image">
-    </div>
+   {{/each}}
   </div>
 </div><br>
 

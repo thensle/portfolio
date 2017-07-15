@@ -17,12 +17,22 @@ router.get("/blog", function(req, res) {
 });
 
 router.get("/projects", function(req, res) {
-	console.log(devData);
     res.render("project-index", {data: devData});
 });
 
 router.get("/projects/:title", function(req, res) {
-    res.render("project-details");
+	var title = req.params.title;
+	var index;
+
+	if (title === "Connect-ED"){
+		index = 0;
+	} else if (title === "Tell Me, Who Are You"){
+		index = 1;
+	} else {
+		index = 2;
+	};
+
+    res.render("project-details", {data: devData[index]});
 });
 
 module.exports = router;
